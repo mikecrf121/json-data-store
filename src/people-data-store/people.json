@@ -1,0 +1,6 @@
+{
+  "peoples": [
+    { "fistName": "Mike", "lastName": "Cass" },
+    { "fistName": "Scott", "lastName": "Huggins" }
+  ]
+}

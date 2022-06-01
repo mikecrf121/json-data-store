@@ -1,0 +1,20 @@
+{
+  "name": "json-data-store-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc && mkdir dist/people-data-store && cp src/people-data-store/* dist/people-data-store",
+    "build-watch": "tsc -w",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Cass",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.38"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
